@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    place-items: center;
+    animation: image 1s ease alternate infinite;
+}
+
+@keyframes image {
+    to{
+        transform:
+        translateY(30px);
+    }
+}
